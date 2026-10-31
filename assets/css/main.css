@@ -3,6 +3,7 @@
 @import url(quienes-somos.css);
 @import url(servicios.css);
 @import url(footer.css);
+@import url(contacto.css);
 *,
 *::before, 
 *::after{
@@ -11,8 +12,8 @@
     padding: 0;
 }
 :root{
-    --main-color:#462C7D;
-    --secundary-color:#831C91;
+    --main-color:hsl(54, 100%, 50%);
+    --secundary-color:hsl(189, 95%, 49%);
     --tercer-color:#D552A3;
     --rosa:#FF70BF;
     --white:#ffff;
@@ -35,6 +36,5 @@ ul{
     list-style: none;
 }
 a{
-   color:azure;
-    text-decoration: none;
+   color:azure;  text-decoration: none;
 }
